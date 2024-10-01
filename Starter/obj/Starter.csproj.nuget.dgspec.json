@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter\\Starter.csproj": {}
+    "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\starter\\Starter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter\\Starter.csproj": {
+    "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\starter\\Starter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter\\Starter.csproj",
+        "projectUniqueName": "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\starter\\Starter.csproj",
         "projectName": "Starter",
-        "projectPath": "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter\\Starter.csproj",
+        "projectPath": "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\starter\\Starter.csproj",
         "packagesPath": "C:\\Users\\lucie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter\\obj\\",
+        "outputPath": "C:\\Users\\lucie\\desktop\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\starter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucie\\AppData\\Roaming\\NuGet\\NuGet.Config"

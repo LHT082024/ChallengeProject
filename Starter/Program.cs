@@ -28,12 +28,15 @@ int[] emmaScores = new int[] { 90, 85, 87, 98, 68, 89, 89, 89 };
 int[] loganScores = new int[] { 90, 95, 87, 88, 96, 96 };
 
 int[] studentScores = new int[10];
+decimal[] extraCreditPoints = new decimal [10];
+int[] extraCreditScore;
+int[] examScore;
 
 string currentStudentLetterGrade = "";
 
 // display the header row for scores/grades
 Console.Clear();
-Console.WriteLine("Student\t\tGrade\tLetter Grade\n");
+Console.WriteLine("Student\t\tExam score\tOverall Grade\tExtra Credit\n");
 
 /*
 The outer foreach loop is used to:
@@ -124,9 +127,9 @@ foreach (string name in studentNames)
     // Student         Grade
     // Sophia:         92.2    A-
     
-    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+    Console.WriteLine($"{currentStudent}\t\t|exami|\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t\t{extraCreditPoints}({extraCreditPoints})");
 }
 
 // required for running in VS Code (keeps the Output windows open to view results)
-Console.WriteLine("\n\rPress the Enter key to continue");
-Console.ReadLine();
+// Console.WriteLine("\n\rPress the Enter key to continue");
+// Console.ReadLine();
