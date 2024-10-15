@@ -22,15 +22,19 @@ int examAssignments = 5;
 
 string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 
-int[] sophiaScores = new int[] { 90, 86, 87, 98, 100, 94, 90 };
-int[] andrewScores = new int[] { 92, 89, 81, 96, 90, 89 };
-int[] emmaScores = new int[] { 90, 85, 87, 98, 68, 89, 89, 89 };
-int[] loganScores = new int[] { 90, 95, 87, 88, 96, 96 };
+int[] sophiaScores = new int[] { 90, 86, 87, 98, 100};
+int[] andrewScores = new int[] { 92, 89, 81, 96, 90};
+int[] emmaScores = new int[] { 90, 85, 87, 98, 68};
+int[] loganScores = new int[] { 90, 95, 87, 88};
+
+
+int[] sophiaExtracredit = new int[] {94, 90};
+int[] andrewExtracredit = new int[] {89};
+int[] emmaExtracredit = new int[] {89, 89, 89};
+int[] sloganExtracredit = new int[] {96, 96};
+
 
 int[] studentScores = new int[10];
-decimal[] extraCreditPoints = new decimal [10];
-int[] extraCreditScore;
-int[] examScore;
 
 string currentStudentLetterGrade = "";
 
@@ -127,7 +131,8 @@ foreach (string name in studentNames)
     // Student         Grade
     // Sophia:         92.2    A-
     
-    Console.WriteLine($"{currentStudent}\t\t|exami|\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t\t{extraCreditPoints}({extraCreditPoints})");
+    Console.WriteLine($"{currentStudent}\t\t|{CurrentStudentExamScore}|\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t\t{CurrentStudentExtraCredit}");
+    // {extraCreditPoints}({extraCreditPoints})");
 }
 
 // required for running in VS Code (keeps the Output windows open to view results)
